@@ -62,9 +62,10 @@ img{
 }
 
 #showcase h1{
-  font-size:50px;
-  margin:0;
-  padding-bottom:20px;
+  font-size:43px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom:10px;
 }
 
 #showcase p{
@@ -128,7 +129,7 @@ img{
 
 .fa-check{
   color:#56a79a;
-  font-size: 37px;
+  font-size: 30px;
 }
 
 #info li{
