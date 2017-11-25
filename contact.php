@@ -24,7 +24,7 @@ if(isset($_POST['email'])) {
  
      
  
-    $first_name = $_POST['name']; // required
+    $name = $_POST['name']; // required
     $email_from = $_POST['email']; // required
     $comments = $_POST['comments']; // required
  
@@ -60,7 +60,7 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "Name: ".clean_string($first_name)."\n";
+    $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Comments: ".clean_string($comments)."\n";
  
